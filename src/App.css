@@ -7,7 +7,7 @@ body{
   gap: 10px;
   position: absolute;
   top: 10%;
-  left: 20%;
+  left: 25%;
   transform: translate(20%,-20%);
 
 }
@@ -20,6 +20,7 @@ body{
  border-radius: 20px;
  background-color: rgb(202, 243, 238);
  margin: 10px;
+ margin-left: 70px;
 }
 #dpt{
   height: 40px;
@@ -34,10 +35,13 @@ body{
  border-radius: 20px;
  background-color: rgb(202, 243, 238);
  margin: 10px;
+ margin-left: 60px;
 }
 #clk{
   height: 45px;
-  width: 180px;
+  position: relative;
+  left: 25%;
+  width: 150px;
  border-radius: 20px;
  margin: 30px;
  font-weight: bold;
@@ -57,7 +61,7 @@ font-size: 24px;
   justify-content:space-between;
   position: absolute;
   top: 420px;
-  left: 25%;
+  left: 20%;
 gap: 20px;
 padding: 10px;
 background-color: rgb(142, 170, 222);
